@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-st.write('Burak')
+
 
 uploaded_file = st.file_uploader("Choose a file")
 
