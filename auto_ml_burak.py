@@ -24,7 +24,7 @@ if 1==1:
 
     
     
-    #df = pd.read_csv("/home/berfin_sarioglu/files/df_frekans_app.csv")
+   
     #a= df.columns.to_list()
     #df[a] = df[a].apply(pd.to_numeric,errors='ignore', axis=1)
     if st.button('Görselleştirmeye başlamak için tıklayın'):
