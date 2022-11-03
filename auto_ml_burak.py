@@ -15,7 +15,7 @@ if flag == 1:
     bytes_data = uploaded_file.getvalue()
     df = pd.read_csv(uploaded_file)
 else :
-    df = pd.read_csv('...\input\train.csv')
+    df = sns.load_dataset('iris')
 
 if 1==1:
     #if st.button('Dataset yüklendi görselleştirmeye başlamak için tıklayın'):
